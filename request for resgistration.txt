@@ -1,0 +1,73 @@
+http://localhost:3000/updateUser
+
+{
+    "user" : {
+        "user_id": 3,
+        "login_id": 1,
+        "year": 2012,
+        "programe": "WP",
+        "payment_option": "cash deposite",
+        "student_name": "Robert",
+        "passport": null,
+        "current_address": null,
+        "nationality": null,
+        "conatct_number": null,
+        "dob": null,
+        "next_of_kin": null,
+        "next_of_kin_number": null,
+        "learner_student_name": null,
+        "learner_passport": null,
+        "learner_nationality": null,
+        "learner_current_address": null,
+        "learner_conatct_number": null,
+        "learner_dob": null,
+        "terms_and_conditions": null,
+        "terms_and_conditions_ind": null,
+        "status": "Suspended"
+    }
+}
+
+http://localhost:3000/userLogin
+
+{
+  "username": "WP1SM",
+  "password": "GpI1"y;!u]"
+}
+
+http://localhost:3000/updateAdmin
+
+{
+       "login_id": 1,
+       "status": "complete",
+	   "email": ""
+
+}
+
+http://localhost:3000/confirmRegistration
+
+{
+    "user" : {
+        "user_id": null,
+        "login_id": null,
+        "year": 2004,
+        "programe": "CP",
+        "payment_option": "cash deposite",
+        "student_name": "Robert",
+        "passport": null,
+        "current_address": null,
+        "nationality": null,
+        "conatct_number": null,
+        "dob": null,
+        "next_of_kin": null,
+        "next_of_kin_number": null,
+        "learner_student_name": null,
+        "learner_passport": null,
+        "learner_nationality": null,
+        "learner_current_address": null,
+        "learner_conatct_number": null,
+        "learner_dob": null,
+        "terms_and_conditions": null,
+        "terms_and_conditions_ind": null,
+        "status": "Suspended"
+    }
+}
